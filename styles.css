@@ -26,7 +26,7 @@ h6 {
 #Home{
   /* Full height */
   
-  height: 578px;
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -83,7 +83,42 @@ h6 {
        font-style: italic;
  }
 
+ /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+ @media (max-width: 544px) {
+.first-title {
+  font-size:1.6rem;
+}
+.first-para {
+  font-size:0.896rem;
+}
+ }
 
+ @media (min-width: 545px) {
+.first-title {
+  font-size:1.7rem;
+}
+.first-para {
+  font-size:1.1rem;
+}
+ }
+
+ @media (min-width: 900px) {
+.first-title {
+  font-size:2.1rem;
+}
+.first-para {
+  font-size:1.3rem;
+}
+ }
+
+ @media (min-width: 1200px) {
+.first-title {
+  font-size:2.5rem;
+}
+.first-para {
+  font-size:1.4rem;
+}
+ }
 
  #Favignana{
     background-color:
