@@ -8,5 +8,5 @@ $("*").click(function(){
 });
 
 jQuery(document).ready(function() {
-    jQuery('#loading').fadeOut(1000);
+    jQuery('#loading').fadeOut(2000);
 });
